@@ -17,8 +17,8 @@ Ce GitHub est mon carnet de progression : les projets ne sont pas tous parfaits,
 
 ### Ce que je construis
 
-**[Webtoon Lens iOS](https://github.com/samsam-zrh/webtoon-lens-ios)**  
-Un prototype iOS pour détecter et traduire le texte d'un webtoon pendant la lecture. J'y explore Swift, SwiftUI, Vision, les extensions Safari et les limites réelles d'une application iOS.
+**[Webtoon Lens](https://github.com/samsam-zrh/webtoon-lens-ios)**<br>
+Un lecteur web local pour importer des pages de webtoon en anglais ou chinois et les traduire en français. OCR avec Vision sur Mac, modèle local et glossaire par série : le texte est ajusté dans les bulles, avec l'original toujours accessible. Le dépôt contient aussi le prototype iOS en SwiftUI.
 
 **[Dashboard RES2-6-9](https://github.com/samsam-zrh/enedis-res2-6-9-ai-dashboard)**  
 Un projet data autour de fichiers Enedis : préparation des données, détection de cas RS/RP, prévisions simples et visualisation dans une interface Streamlit.
