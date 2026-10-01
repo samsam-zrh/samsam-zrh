@@ -23,15 +23,23 @@ Un prototype iOS pour détecter et traduire le texte d'un webtoon pendant la lec
 **[Dashboard RES2-6-9](https://github.com/samsam-zrh/enedis-res2-6-9-ai-dashboard)**  
 Un projet data autour de fichiers Enedis : préparation des données, détection de cas RS/RP, prévisions simples et visualisation dans une interface Streamlit.
 
+### Mes petits projets
+
+**[Budget CLI](https://github.com/samsam-zrh/budget-cli)**  
+Un gestionnaire de dépenses en Python qui enregistre les données dans un fichier CSV. Le projet reste court, utilise uniquement la bibliothèque standard et contient quelques tests unitaires.
+
+**[Focus Timer](https://github.com/samsam-zrh/focus-timer)** · **[Essayer en ligne](https://samsam-zrh.github.io/focus-timer/)**  
+Un minuteur Pomodoro sans framework, réalisé en HTML, CSS et JavaScript. Le compteur des sessions terminées est sauvegardé directement dans le navigateur.
+
 ### En ce moment
 
 - je simplifie mes projets pour qu'ils soient plus faciles à lancer et à comprendre ;
 - j'améliore ma façon de structurer et documenter mon code ;
-- je continue à pratiquer **Python**, la **data visualisation** et **Swift**.
+- je continue à pratiquer **Python**, **JavaScript**, la **data visualisation** et **Swift**.
 
 ### Outils que j'utilise
 
-`Python` · `pandas` · `Streamlit` · `Swift` · `SwiftUI` · `Git` · `GitHub Actions`
+`Python` · `pandas` · `Streamlit` · `JavaScript` · `HTML/CSS` · `Swift` · `SwiftUI` · `Git`
 
 ---
 
