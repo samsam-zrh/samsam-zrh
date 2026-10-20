@@ -1,63 +1,59 @@
-<!--
-THESIS: A GitHub profile should show honest progress, not imitate a senior developer's dashboard.
-OWN-WORLD: A quiet notebook-like canvas, cobalt and amber accents, precise lines, and one compact visual header.
-STORY: Samuel builds practical prototypes, explains what they do, and improves them step by step.
-FIRST VIEWPORT: A restrained banner names Samuel, his current technologies, and his build-test-learn rhythm.
-FORM: Team AI projects with explicit contributions, followed by personal projects, current learning, and tools.
--->
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
   <img alt="Samuel — Python, data et Swift. Construire, tester, apprendre, recommencer." src="./assets/header-light.svg" width="100%">
 </picture>
 
-Je transforme des idées en **prototypes concrets** pour apprendre comment les choses fonctionnent vraiment.
-Ce GitHub rassemble mes projets personnels et ceux auxquels j’ai participé en équipe, en **IA, data et développement d’applications**.
+## Samuel Zerah
 
-### Projets IA auxquels j’ai participé
+Je développe des projets en **IA, data et applications** : du traitement du langage aux interfaces web et iPhone. J’apprends en construisant, en testant et en documentant ce qui fonctionne.
 
-Ces projets ont été réalisés en équipe. Je précise ma contribution et je renvoie vers le code ou les présentations disponibles, y compris lorsque le projet est hébergé sur le compte d’un autre membre.
+### Projets en équipe
 
-**[News Agents — analyse de sentiments financiers](https://github.com/adk783/Projet-News-Agents/tree/samuel)** · Projet E4, 2026  
-Un pipeline qui collecte des actualités financières et analyse leur sentiment par entreprise. **Ma contribution :** utilisation de FinBERT pour la polarité des textes, adaptation d’un modèle d’incertitude par LoRA (PEFT), agents de risque juridique et de fondamentaux avec TF-IDF/Ridge, et comparaison sur des corpus publics.  
-[Ma branche et mon code](https://github.com/adk783/Projet-News-Agents/tree/samuel) · [Architecture de l’équipe](https://github.com/adk783/Projet-News-Agents/blob/version-finale-v3/README.md)  
-`Python` · `PyTorch` · `Transformers` · `FinBERT` · `PEFT / LoRA` · `scikit-learn`
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>News Agents</h3>
+<p><strong>Analyse de sentiments financiers · E4, 2026</strong></p>
+<p>Un pipeline d’équipe pour collecter des actualités et analyser leur sentiment par entreprise.</p>
+<p><strong>Ma contribution :</strong> polarité avec FinBERT, adaptation d’un modèle d’incertitude par LoRA, agents de risque juridique et de fondamentaux avec TF-IDF/Ridge, et comparaison sur des corpus publics.</p>
+<p><code>Python</code> <code>PyTorch</code> <code>Transformers</code> <code>PEFT / LoRA</code> <code>scikit-learn</code></p>
+<p><a href="https://github.com/adk783/Projet-News-Agents/tree/samuel">Voir ma branche et mon code ↗</a><br><a href="https://github.com/adk783/Projet-News-Agents/blob/version-finale-v3/README.md">Architecture de l’équipe ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<h3>EYE Médicale</h3>
+<p><strong>IA multimodale pour l’imagerie médicale · E3, 2025</strong></p>
+<p>Un prototype étudiant associant CLIP et Gemma à une interface web via FastAPI pour produire des descriptions d’images médicales.</p>
+<p><strong>Ma contribution, avec Lorenzo :</strong> structure du modèle IA, préparation des données, participation au fine-tuning LoRA, tests et nettoyage des sorties.</p>
+<p><code>Python</code> <code>PyTorch</code> <code>CLIP</code> <code>Gemma</code> <code>Unsloth</code> <code>FastAPI</code></p>
+<p><sub>Projet expérimental, sans validation clinique. Le code complet n’est pas encore publié sur ce profil.</sub></p>
+</td>
+</tr>
+</table>
 
-**EYE Médicale — assistant multimodal pour l’imagerie médicale** · Projet E3, 2025  
-Un prototype étudiant qui associe CLIP et Gemma pour générer des descriptions d’images médicales, relié à une interface web par FastAPI. **Ma contribution, avec Lorenzo :** structure du modèle IA, préparation des données, participation au fine-tuning LoRA, tests et nettoyage des sorties. Le prototype reste expérimental, sans validation clinique.  
-[Présentation vidéo](https://drive.google.com/file/d/1Cx0zExVW7jVqbUoMmrS5QGMqYk7QuKY5/view)  
-`Python` · `PyTorch` · `CLIP` · `Gemma` · `LoRA` · `Unsloth` · `FastAPI`
+J’ai également participé à un projet de **classification de fleurs**.
 
-**Classification florale**  
-Participation à un projet de classification de fleurs. Une autre expérience de classification, en complément de mes projets d’IA multimodale et de traitement du langage.
+### Applications personnelles
 
-### Mes projets personnels
+| Projet | Ce que j’ai construit |
+| :--- | :--- |
+| **[Webtoon Lens](https://github.com/samsam-zrh/webtoon-lens-ios)** | Un lecteur local anglais/chinois → français : OCR Vision sur Mac, modèle local, glossaire par série et ajustement du texte dans les bulles. Prototype iOS SwiftUI inclus. |
+| **[Dashboard RES2-6-9](https://github.com/samsam-zrh/enedis-res2-6-9-ai-dashboard)** | Préparation de données Enedis, détection de cas RS/RP, prévisions simples et visualisation avec Streamlit. |
 
-**[Webtoon Lens](https://github.com/samsam-zrh/webtoon-lens-ios)**<br>
-Un lecteur web local pour importer des pages de webtoon en anglais ou chinois et les traduire en français. OCR avec Vision sur Mac, modèle local et glossaire par série : le texte est ajusté dans les bulles, avec l'original toujours accessible. Le dépôt contient aussi le prototype iOS en SwiftUI.
+<details>
+<summary><strong>Petits outils pour pratiquer les fondamentaux</strong></summary>
 
-**[Dashboard RES2-6-9](https://github.com/samsam-zrh/enedis-res2-6-9-ai-dashboard)**  
-Un projet data autour de fichiers Enedis : préparation des données, détection de cas RS/RP, prévisions simples et visualisation dans une interface Streamlit.
+- **[Budget CLI](https://github.com/samsam-zrh/budget-cli)** — gestion de dépenses en Python, stockage CSV et tests unitaires, avec la bibliothèque standard.
+- **[Focus Timer](https://github.com/samsam-zrh/focus-timer)** — minuteur Pomodoro en HTML/CSS/JavaScript avec sessions sauvegardées dans le navigateur. [Essayer en ligne](https://samsam-zrh.github.io/focus-timer/).
 
-### Mes petits projets
+</details>
 
-**[Budget CLI](https://github.com/samsam-zrh/budget-cli)**  
-Un gestionnaire de dépenses en Python qui enregistre les données dans un fichier CSV. Le projet reste court, utilise uniquement la bibliothèque standard et contient quelques tests unitaires.
+### En préparation
 
-**[Focus Timer](https://github.com/samsam-zrh/focus-timer)** · **[Essayer en ligne](https://samsam-zrh.github.io/focus-timer/)**  
-Un minuteur Pomodoro sans framework, réalisé en HTML, CSS et JavaScript. Le compteur des sessions terminées est sauvegardé directement dans le navigateur.
+Je prépare progressivement la publication de mes travaux sur **Daikin en réseau local**, **Wiki Masters** et **Gift Rush sur Roblox** : sources, instructions de lancement, tests et crédits. Ces projets seront ajoutés au fil de leur préparation.
 
-### En ce moment
+### Technologies
 
-- je simplifie mes projets pour qu'ils soient plus faciles à lancer et à comprendre ;
-- j'améliore ma façon de structurer et documenter mon code ;
-- je continue à pratiquer **Python**, **JavaScript**, la **data visualisation** et **Swift**.
-
-### Outils que j'utilise
-
-`Python` · `PyTorch` · `Transformers` · `scikit-learn` · `pandas` · `PEFT / LoRA` · `FastAPI` · `Streamlit` · `JavaScript` · `HTML/CSS` · `Swift` · `SwiftUI` · `Git`
-
----
-
-<sub>Je préfère un petit projet terminé et expliqué à un gros projet impossible à relire.</sub>
+**IA & data** · Python, PyTorch, Transformers, scikit-learn, pandas, PEFT / LoRA  
+**Applications** · FastAPI, Streamlit, JavaScript, HTML/CSS, Swift, SwiftUI  
+**Méthode** · Git, tests, documentation et améliorations progressives
