@@ -15,7 +15,7 @@ Je fais surtout du Python, de l’IA et des applications web ou iPhone. Voici qu
 <p><a href="https://github.com/adk783/Projet-News-Agents/tree/samuel">Ma branche</a> · <a href="https://github.com/adk783/Projet-News-Agents/blob/version-finale-v3/README.md">Le projet</a></p>
 </td>
 <td width="50%" valign="top">
-<h3>EYE Médicale</h3>
+<h3><a href="https://github.com/samsam-zrh/eye-medicale">EYE Médicale</a></h3>
 <p><strong>Images médicales et IA · 2025</strong></p>
 <p>Un prototype étudiant qui génère des descriptions d’images médicales avec CLIP et Gemma, relié à une interface web par FastAPI.</p>
 <p>Avec Lorenzo, j’ai travaillé sur la structure du modèle, la préparation des données, les tests et le nettoyage des réponses. J’ai aussi participé au fine-tuning avec LoRA.</p>
