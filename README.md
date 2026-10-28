@@ -14,6 +14,7 @@ Un prototype étudiant qui décrit des images médicales avec CLIP et Gemma. Ave
 
 ## Projets perso
 
+- [Gift Rush](https://github.com/samsam-zrh/gift-rush) : mon prototype Roblox autour des cadeaux et des compagnons. Le dépôt contient les modules Luau, les tests et le guide d’intégration à Presents Simulator.
 - [Mon climat — Daikin](https://github.com/samsam-zrh/daikin-local) : je contrôle mes clims en local depuis une interface Python ou une app iPhone SwiftUI. Je suis parti d’une analyse de ONECTA et du protocole Daikin. Une démo permet d’essayer sans appareil.
 - [Webtoon Lens](https://github.com/samsam-zrh/webtoon-lens-ios) : un lecteur qui traduit les webtoons anglais ou chinois en français, avec OCR et modèle local sur Mac. Il y a aussi un prototype iPhone.
 - [Dashboard RES2-6-9](https://github.com/samsam-zrh/enedis-res2-6-9-ai-dashboard) : analyse de données Enedis, détection RS/RP et prévisions dans Streamlit.
